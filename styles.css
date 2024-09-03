@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url("./Images/Bg.png");
+    background-size: cover;
+    overflow: hidden;
+}
+nav {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: "Poppins";
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav .log button{
+    font-family: "Poppins";
+}
+nav .logo img{
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+}
+
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .log button{
+    border-radius: 10px;
+    height: 35px;
+    width: 112px;
+    color: #D9D9D9;
+}
+nav .log .login{
+    background-color: transparent;
+    border:1px solid #D9D9D9;
+}
+nav .log .login:hover{
+    background-color: #350D68;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+nav .log .sign-up{
+    background-color: #350D68;
+    border: none;
+}
+nav .log .sign-up:hover{
+    border: 1px solid #6223B4;
+    transition: 0.3s ease-in-out;
+}
+.body{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+}
+.body button{
+    font-family: "Poppins";
+}
+.body .logo img{
+    height: 150px;
+    width: 150px;
+}
+.body .detect-btn button{
+    padding: 2px 5px;
+    height: 40px;
+    width: 293px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom,#281843,#281843);
+    box-shadow: 0 2px 15px rgba(98, 35, 180, 1);
+}
+.body .detect-btn button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.body .detect-btn button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 15px rgba(40, 24, 67, 1);
+    background-image: linear-gradient(to bottom,#6223B4,#350D68);
+}
+.body .detect-btn button img{
+    height: 24.5px;
+    width: 17.5px;
+}
+.body .text h1{
+    font-size: 45px;
+    background-image: linear-gradient(to bottom,#F9F9F9,#393737);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.body .text h5{
+    font-size: 16px;
+}
+.body .upload-btn button{
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    background-color: #B9B9B9;
+    color: #6223B4;
+    height: 46px;
+    width: 200px;
+}
+.body .upload-btn button img{
+    margin-right: 5px;
+}
+.upload-btn button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 15px rgba(40, 24, 200, 1);
+}
